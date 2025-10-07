@@ -2,10 +2,119 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Practica de Página GitHub.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>angel15369 | Portafolio Personal</title>
+    <style>
+        /* Estilos CSS Integrados */
+        :root {
+            /* Colores */
+            --background-color: #1a1a2e; /* Azul oscuro/Negro */
+            --text-color: #e4e4e6; /* Blanco roto */
+            --accent-color: #00bcd4; /* Azul cian brillante (puedes cambiarlo) */
+            --card-color: #2c2c44; /* Gris oscuro para tarjetas */
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            padding: 40px;
+            background-color: var(--card-color);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: var(--text-color);
+            opacity: 0.8;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid rgba(0, 188, 212, 0.3);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .links-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .link-button {
+            text-decoration: none;
+            color: var(--text-color);
+            background-color: var(--accent-color);
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+
+        .link-button:hover {
+            background-color: #008c9e; /* Tono más oscuro al pasar el ratón */
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            opacity: 0.6;
+        }
+    </style>
 </head>
 <body>
-    <h1>Página GitHub Pages.</h1>
-    <p>Cree este contenido a partir del repositorio.</p>
+
+<div class="container">
+    <h1>Ángel Amilcar Volquez Rosario</h1>
+    <h2>Desarrollador de Software | Estudiante</h2>
+    <h3>Matricula 2023-0965</h3>
+
+    <div class="about-me">
+        <p>¡Bienvenido a mi espacio digital! Me enfoco en el desarrollo Full-Stack, con experiencia en gestión de proyectos con metodologías ágiles (Kanban/Scrum). Este sitio sirve como mi centro de enlaces y portafolio.</p>
+    </div>
+
+    <h4 class="section-title">Proyectos & Contacto</h4>
+
+    <div class="links-grid">
+        <a href="https://github.com/angel15369" class="link-button">GitHub Principal</a>
+        <a href="#proyectos-futuros" class="link-button">Proyectos (Demo)</a>
+        <a href="mailto:tu.correo@ejemplo.com" class="link-button">Contáctame por Email</a>
+        <a href="#" class="link-button" style="background-color: #3b5998;">LinkedIn</a> 
+    </div>
+
+    <div class="footer">
+        <p>Desarrollado con pasión y GitHub Pages.</p>
+    </div>
+</div>
+
 </body>
 </html>
